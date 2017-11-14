@@ -1,6 +1,6 @@
 # Making an 8 bit computer
 
-Design : 
+## Design : 
 The computer should:
 - Use a classic 8bit CPU with a 16bit address space (6502 or Z80)
 - Only use DIP packaged, easilly socketable and to solder ICs
@@ -13,18 +13,15 @@ The computer should:
 - Have a ZIF socket where the user can put an additional eeprom with arbitrary program data (More or less like game cartrides worked, but simplified down to a single ROM chip)
 - Stay easy to wire
 - Use modern componant. The processor, ram and rom from the era are still made but in CMOS versions (they are faster and more efficient to use)
-
-The design should be layed on a board in the same manner a computer architecure diagram would look like. CPU, Buses, ROM, RAM and peripheral clearly labeled
-
-The serial interface should be compatibler with a Minitel 1B terminal
-
-The board should have a series of control inputs to reset the CPU, stop the clock signal and single step the program.
+- The design should be layed on a board in the same manner a computer architecure diagram would look like. CPU, Buses, ROM, RAM and peripheral clearly labeled
+ - The serial interface should be compatibler with a Minitel 1B terminal
+ - The board should have a series of control inputs to reset the CPU, stop the clock signal and single step the program.
 
 Usefull links:
 
-http://searle.hostei.com/grant/z80/SimpleZ80.html
-https://en.wikipedia.org/wiki/MAX232
-https://en.wikipedia.org/wiki/Zilog_Z80
+ - http://searle.hostei.com/grant/z80/SimpleZ80.html
+ - https://en.wikipedia.org/wiki/MAX232
+ - https://en.wikipedia.org/wiki/Zilog_Z80
 
 here's a stash of document about the Altair 8800 computer. It uses an intel chip that the z80 is more or less compatible with. Should be a good idea of what's behind the design of a "microcomputer" from the 1970s http://www.classiccmp.org/dunfield/altair/altair6.htm
 
